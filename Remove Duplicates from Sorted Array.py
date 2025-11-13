@@ -3,7 +3,7 @@ class Solution:
         # Creating two variable as pointers to count duplicates and numbers witnout them
         no_dupl = 0 
         dupl = 1
-        # Cycle "while" will only work in array "nums" 
+        # Cycle "while" will only work in list "nums" 
         while dupl in range(len(nums)):
             # If numbers are same count it in "dupl"
             if nums[no_dupl] == nums[dupl]:
